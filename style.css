@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+h3 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  padding: 0 15px;
+}
+
+.content-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.content-center img {
+  border-radius: 50%;
+  width: 5em;
+  margin-bottom: 40px;
+  border: white 3px solid;
+}
+
+.contact {
+  margin-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
