@@ -19,6 +19,8 @@ h1 {
 
 .sfondo {
   position: absolute;
+  width: 100%;
+  min-width: 1250px;
   height: 800px;
 }
 
