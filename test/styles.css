@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: 'Sacramento', cursive;
+}
+
+.testo {
+  position: absolute;
+  left: 750px;
+  top: 130px;
+  padding-right: 300px;
+}
+
+.sfondo {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.cielo {
+  width: 100%;
+  height: 80%;
+  background-color: #b3d9ff;
+}
+
+.prato {
+  width: 100%;
+  height: 20%;
+  background-color: #4dff4d;
+}
+
+
+.prat {
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  background-color: #b3d9ff;
+}
+
+.capelli {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  width: 200px;
+  height: 400px;
+  background-color: brown;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.capelli-avanti {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: brown;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.fronte {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 180px;
+  height: 100px;
+  background-color: pink;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.faccia {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.orecchio {
+  position: absolute;
+  top: 90px;
+  width: 20px;
+  height: 40px;
+  background-color: pink;
+  border-radius: 15px;
+}
+
+.orecchino {
+  position: absolute;
+  top: 30px;
+  left: 7px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.or-sinistro {
+  left: -10px;
+}
+
+.or-destro {
+  left: 190px;
+}
+
+.sopracciglia {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  width: 30px;
+  height: 10px;
+  border-top: 4px solid brown;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.so-sinistra {
+  border-right: 2px solid brown;
+  left: 35px;
+}
+
+.so-destra {
+  border-left: 2px solid brown;
+  left: 135px;
+}
+
+.occhio {
+  position: absolute;
+  top: 75px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+.o-sinistro {
+  left: 40px;
+}
+
+.o-destro {
+  left: 136px;
+}
+
+.pupilla {
+  position: relative;
+  left: 3px;
+  top: 3px;
+  width: 14px;
+  height: 14px;
+  background-color: brown;
+  border-radius: 50%;
+}
+
+.naso {
+  position: absolute;
+  left: 90px;
+  top: 80px;
+  width: 20px;
+  height: 40px;
+  background-color: pink;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-right-radius: 5px;
+  transform: rotate(-10deg);
+}
+
+.bocca {
+  position: absolute;
+  left: 75px;
+  top: 150px;
+  width: 50px;
+  height: 20px;
+  background-color: red;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.corpo {
+  position: absolute;
+  top: 260px;
+  left: 425px;
+  width: 150px;
+  height: 300px;
+  background-color: pink;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.collo {
+  position: absolute;
+  left: 36px;
+  top: -30px;
+  background-color: pink;
+  width: 75px;
+  height: 50px;
+}
+
+.vestito {
+  position: absolute;
+  top: 250px;
+  left: 425px;
+  width: 150px;
+  height: 320px;
+  background-color: red;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.scollatura {
+  position: absolute;
+  left: 36px;
+  background-color: pink;
+  width: 75px;
+  height: 50px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.gamba {
+  position: absolute;
+  top: 550px;
+  width: 50px;
+  height: 200px;
+  background-color: pink;
+}
+
+.g-sinistra {
+  left: 425px;
+}
+
+.g-destra {
+  left: 525px;
+}
+
+.braccio {
+  position: absolute;
+  top: 275px;
+  width: 50px;
+  height: 200px;
+  background-color: pink;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.b-sinistro {
+  left: 365px;
+  transform: rotate(40deg);
+}
+
+.b-destro {
+  left: 585px;
+  transform: rotate(-40deg);
+}
+
+.scarpa {
+  position: absolute;
+  top: 700px;
+  background-color: red;
+  width: 100px;
+  height: 50px;
+}
+
+.s-sinistra {
+  left: 375px;
+  border-top-left-radius: 50px;
+}
+
+.s-destra {
+  left: 525px;
+  border-top-right-radius: 50px;
+}
