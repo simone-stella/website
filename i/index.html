@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<style>
+  body {
+    text-align: center;
+  }
+p {
+  text-align: center;
+}
+#giorni, #ore, #minuti, #secondi {
+  font-size: 50px;
+}
+.el {
+  display: inline-block;
+  padding: 30px 40px;
+}
+</style>
+</head>
+<body>
+
+  <h1>❤</h1>
+  <div class="countd">
+    <div class="el">
+      <p id="giorni"></p>
+      <p>GIORNI</p>
+    </div>
+    <div class="el">
+      <p id="ore"></p>
+      <p>ORE</p>
+    </div>
+    <div class="el">
+      <p id="minuti"></p>
+      <p>MINUTI</p>
+    </div>
+    <div class="el">
+      <p id="secondi"></p>
+      <p>SECONDI</p>
+    </div>
+  </div>
+
+
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("July 7, 2022 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("giorni").innerHTML = days;
+  document.getElementById("ore").innerHTML = hours;
+  document.getElementById("minuti").innerHTML = minutes;
+  document.getElementById("secondi").innerHTML = seconds;
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
